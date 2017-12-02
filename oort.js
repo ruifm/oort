@@ -9,22 +9,22 @@ var game = new Phaser.Game(1200, 600, Phaser.CANVAS, '', { preload: preload, cre
 function preload () {
 
     //game.load.atlas('ship', 'assets/games/ships/ships.png', 'assets/games/ships/ships.json');
-    game.load.image('ship', 'ist.png');
-    game.load.image('asteroid', 'assets/games/asteroids/asteroid1.png');
-    game.load.image('bullet', 'assets/games/asteroids/bullets.png');
-    game.load.image('starfield', 'starfield.png');
-    game.load.spritesheet('kaboom', 'assets/games/tanks/explosion.png', 64, 64, 23);
-    game.load.audio('run','run.mp3');
+    game.load.image('ship', 'images/ist.png');
+    game.load.image('asteroid', 'images/asteroid1.png');
+    game.load.image('bullet', 'images/bullets.png');
+    game.load.image('starfield', 'images/starfield.png');
+    game.load.spritesheet('kaboom', 'images/explosion.png', 64, 64, 23);
+    game.load.audio('run','sounds/run.mp3');
 
-    game.load.spritesheet('button', 'assets/buttons/buttons/startb.png', 190, 70);
+    game.load.spritesheet('button', 'images/startb.png', 190, 70);
     
     
-    game.load.image('emitter1','assets/particles/flame1.png');
-    game.load.image('emitter2','assets/particles/flame2.png');
+    game.load.image('emitter1','images/flame1.png');
+    game.load.image('emitter2','images/flame2.png');
     //game.load.image('emitter3','assets/particles/white-smoke.png');
     
-    game.load.bitmapFont('desyrel', 'assets/fonts/bitmapFonts/nokia.png', 'assets/fonts/bitmapFonts/nokia.xml');
-    game.load.bitmapFont('letra', 'assets/fonts/bitmapFonts/carrier_command.png', 'assets/fonts/bitmapFonts/carrier_command.xml');
+    game.load.bitmapFont('desyrel', 'fonts/nokia.png', 'fonts/nokia.xml');
+    game.load.bitmapFont('letra', 'fonts/carrier_command.png', 'fonts/carrier_command.xml');
 
     
 }
